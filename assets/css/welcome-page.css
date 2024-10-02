@@ -1,0 +1,28 @@
+/* body와 html 기본 설정 */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* 이미지가 화면 가득 차도록 설정 */
+  .welcome-image {
+    display: block;
+    width: 100vw;         /* 뷰포트 너비 100% */
+    height: 100vh;        /* 뷰포트 높이 100% */
+    object-fit: cover;    /* 이미지 비율 유지하면서 화면 가득 채움 */
+    transition: opacity 1s ease; /* 서서히 사라지는 효과 */
+    cursor: pointer;      /* 클릭 가능한 커서 */
+    z-index: 10;          /* 이미지가 다른 요소 위에 위치하도록 */
+  }
+  
+  /* 이미지가 사라질 때 적용될 스타일 */
+  .fade-out {
+    opacity: 0;           /* 서서히 사라지도록 투명도 조정 */
+  }
+  
