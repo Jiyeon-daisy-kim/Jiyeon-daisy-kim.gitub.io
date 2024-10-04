@@ -1,0 +1,56 @@
+
+body{
+    background-color: white;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-size: 24px;
+    color: black;
+    /* 원하는 폰트 찾아와!
+    font family: '원하는 폰트명', sans serif;
+    */
+}
+
+.nav-menu{
+    font-size: 18px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    transition: 0.3s;
+}
+
+.document{
+    justify-content: center;
+
+    margin: 10% 20%;
+}

@@ -5,7 +5,7 @@ document.querySelector('.welcome-image').addEventListener('click', function() {
     
      // 1초 후에 새로운 사이트로 이동
   setTimeout(() => {
-    window.location.href = 'https://daisyeon.com/';  // 원하는 사이트로 이동
+    window.location.href = 'daisy.html';  // 원하는 사이트로 이동
   }, 1000);  // 1초 후 이동
 });
   
