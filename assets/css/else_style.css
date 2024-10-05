@@ -95,3 +95,30 @@ a:hover{
     color: gray;
 }
 
+.contact-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+}
+
+.footer-image {
+    width: 50px; /* 이미지 크기를 조절합니다 */
+    height: auto; /* 비율을 유지하면서 크기 조정 */
+    margin-right: 10px; /* 텍스트와 이미지 사이에 간격을 줍니다 */
+    vertical-align: middle; /* 이미지와 텍스트가 같은 라인에 오도록 합니다 */
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    color: gray;
+    transition: 0.3s;
+}

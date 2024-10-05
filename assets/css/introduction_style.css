@@ -1,25 +1,17 @@
 body{
-    
-    background-image: url('https://drive.google.com/thumbnail?id=17VIZLGhgtsskdQRde2WbH29KncbVyyNX&sz=w1000');
-    background-repeat: no-repeat;
-    background-size: COVER;
-    background-position: center;
-    overflow: hidden;
+    background-color: white;
 }
 
 .frame{
     margin: 30px 150px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .navigator{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    z-index: 1000; /* 다른 요소들 위에 표시되도록 설정 */
 }
 
 li{
@@ -36,7 +28,7 @@ ul{
 .site-name{
     margin:0;
     font-size: 24px;
-    color: white;
+    color: black;
     /* 원하는 폰트 찾아와!
     font family: '원하는 폰트명', sans serif;
     */
@@ -44,7 +36,7 @@ ul{
 
 .nav-menu{
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 a{
@@ -55,6 +47,34 @@ a:hover{
     color: gray;
     transition: 0.3s;
 }
+
+.document{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+
+#introduction-picture{
+    width: 400px;
+    margin-right: 60px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    justify-content: center; /* 세로 가운데 정렬 */
+    align-items: center; /* 가로 가운데 정렬 */
+    /* 화면의 전체 높이를 사용 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    padding: 20px;
+    margin: 0 auto; /* 자동 여백 설정으로 가운데 배치 */
+}
+
+
+
 
 .contact-info {
     position: fixed;
@@ -74,7 +94,7 @@ a:hover{
 }
 
 .contact-info a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin-right: 10px;
 }
