@@ -113,12 +113,20 @@ a:hover{
 }
 
 .contact-info a {
-    color: black;
+    color: black !important;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 0px;
+}
+
+.contact-info a:visited{
+    color: black !important;
 }
 
 .contact-info a:hover {
-    color: gray;
+    color: gray !important;
     transition: 0.3s;
+}
+
+.contact-info a:active{
+    color: black !important;
 }

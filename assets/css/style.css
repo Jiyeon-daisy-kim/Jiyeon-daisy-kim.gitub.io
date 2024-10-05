@@ -76,7 +76,11 @@ a:hover{
 .contact-info a {
     color: white;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 0px;
+}
+
+.contact-info a:visited{
+    color: white;
 }
 
 .contact-info a:hover {
