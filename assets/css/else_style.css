@@ -50,7 +50,9 @@ a:hover{
 }
 
 .document{
-    justify-content: center;
+    justify-content: flex;
+    align-items: center;
+    gap: 10%;
 
     margin: 10% 20%;
 }
@@ -80,6 +82,11 @@ a:hover{
 
 #film-picture{
     max-width: 30% !important;
+    height: auto;
+}
+
+#introduction-picture{
+    max-width: 50%;
     height: auto;
 }
 
