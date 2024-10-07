@@ -1,11 +1,5 @@
 body{
-    
-    background-image: url('https://drive.google.com/thumbnail?id=17VIZLGhgtsskdQRde2WbH29KncbVyyNX&sz=w1000');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-
+    background-color: white;
 }
 
 .frame{
@@ -14,8 +8,6 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-
-/* 네비게이션 관련 */
 
 .navigator{
     display: flex;
@@ -44,7 +36,7 @@ ul{
 .site-name{
     margin:0;
     font-size: 24px;
-    color: white;
+    color: black;
     /* 원하는 폰트 찾아와!
     font family: '원하는 폰트명', sans serif;
     */
@@ -52,7 +44,7 @@ ul{
 
 .nav-menu{
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 a{
@@ -64,46 +56,30 @@ a:hover{
     transition: 0.3s;
 }
 
-
-
-/* 맨 아래 이메일, 인스타그램 관련 */
-
-.contact-info {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 0.8%;
-    font-size: 16px;
-    color: white;
-    background-color: transparent;
-}
-
 .footer-image {
     width: 50px; /* 이미지 크기를 조절합니다 */
     height: auto; /* 비율을 유지하면서 크기 조정 */
-    margin-right: 0px; /* 텍스트와 이미지 사이에 간격을 줍니다 */
+    margin-right: 10px; /* 텍스트와 이미지 사이에 간격을 줍니다 */
     vertical-align: middle; /* 이미지와 텍스트가 같은 라인에 오도록 합니다 */
 }
 
 .contact-info a {
-    color: white;
+    color: black !important;
     text-decoration: none;
+    margin-right: 0px;
 }
 
 .contact-info a:visited{
-    color: white;
+    color: black !important;
 }
 
 .contact-info a:hover {
-    color: gray;
+    color: gray !important;
     transition: 0.3s;
 }
 
-/* film 드롭다운 관련 */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
+.contact-info a:active{
+    color: black !important;
 }
 
 .dropdown-content {
@@ -126,21 +102,22 @@ a:hover{
     display: block; /* 블록 요소로 표시 */
     font-size: 14px;
 }
-
 .dropdown-content a:hover {
     background-color: #f1f1f1; /* 마우스를 올리면 배경색 변경 */
 }
 
-
-/* 스마트폰 최적화 관련 */
-
-@media (max-width: 480px) {
-    body{
-        background-image: url('../images/DING.gif');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
-        overflow: hidden;
-    }
+.fixed-text {
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 185px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    line-height: 20px;
 }
 
+/* 여기까지는 기본 세팅 */
