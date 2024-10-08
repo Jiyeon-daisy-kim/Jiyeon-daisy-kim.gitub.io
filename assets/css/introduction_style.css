@@ -55,45 +55,9 @@ a:hover{
     transition: 0.3s;
 }
 
-.document{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-
-    margin: 5% 5%;
-}
-
-#introduction-picture{
-    width: 30%;
-    margin-right: 60px;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column; /* 세로로 정렬 */
-    justify-content: center; /* 세로 가운데 정렬 */
-    align-items: center; /* 가로 가운데 정렬 */
-    /* 화면의 전체 높이를 사용 */
-    text-align: center; /* 텍스트 중앙 정렬 */
-    padding: 20px;
-    margin: 0 auto; /* 자동 여백 설정으로 가운데 배치 */
-}
-
-.contact p {
-    font-size: 13px;
-}
-
-.document p{
-    font-size: 13px;
-}
-
 
 .contact-info {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
+    padding: 0.8%;
     font-size: 16px;
     color: white;
     background-color: transparent;
@@ -102,27 +66,29 @@ a:hover{
 .footer-image {
     width: 50px; /* 이미지 크기를 조절합니다 */
     height: auto; /* 비율을 유지하면서 크기 조정 */
-    margin-right: 10px; /* 텍스트와 이미지 사이에 간격을 줍니다 */
     vertical-align: middle; /* 이미지와 텍스트가 같은 라인에 오도록 합니다 */
 }
 
-.contact-info a {
+.contact-info-title{
     color: black !important;
+    font-size: 12px !important;
+}
+
+.contact-info a {
+    color: darkgray;
     text-decoration: none;
-    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 12px;
 }
 
 .contact-info a:visited{
-    color: black !important;
+    color: darkgray;
 }
 
 .contact-info a:hover {
-    color: gray !important;
+    color: darkgray;
     transition: 0.3s;
-}
-
-.contact-info a:active{
-    color: black !important;
 }
 
 .dropdown-content {
@@ -169,3 +135,38 @@ a:hover{
         text-align: center; /* 텍스트를 중앙 정렬 */
     }
 }
+
+.document{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+#introduction-picture{
+    width: 30%;
+    margin-right: 60px;
+}
+
+.document p{
+    font-size: 13px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    justify-content: center; /* 세로 가운데 정렬 */
+    align-items: center; /* 가로 가운데 정렬 */
+    /* 화면의 전체 높이를 사용 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    padding: 20px;
+    margin: 0 auto; /* 자동 여백 설정으로 가운데 배치 */
+}
+
+.contact p {
+    font-size: 13px;
+}
+

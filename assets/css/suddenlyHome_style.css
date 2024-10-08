@@ -56,32 +56,40 @@ a:hover{
     transition: 0.3s;
 }
 
+.contact-info {
+    padding: 0.8%;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+}
+
 .footer-image {
     width: 50px; /* 이미지 크기를 조절합니다 */
     height: auto; /* 비율을 유지하면서 크기 조정 */
-    margin-right: 10px; /* 텍스트와 이미지 사이에 간격을 줍니다 */
     vertical-align: middle; /* 이미지와 텍스트가 같은 라인에 오도록 합니다 */
 }
 
+.contact-info-title{
+    color: black !important;
+    font-size: 12px !important;
+}
+
 .contact-info a {
-    color: black;
+    color: darkgray;
     text-decoration: none;
-    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 12px;
 }
 
 .contact-info a:visited{
-    color: black;
+    color: darkgray;
 }
 
 .contact-info a:hover {
-    color: gray;
+    color: darkgray;
     transition: 0.3s;
 }
-
-.contact-info a:active{
-    color: black;
-}
-
 .dropdown-content {
     display: none; /* 드롭다운을 기본적으로 숨김 */
     position: absolute;
@@ -155,7 +163,6 @@ a:hover{
     flex-direction: column;
     justify-content: flex-start;
     border-left: 1px solid black;
-    margin-left: 15%;
     margin-top: 2%;
 }
 
@@ -171,11 +178,11 @@ a:hover{
 .zone3-1{
     width: 80% !important;
     object-fit: cover;
-    margin-left: 15%;
+    
     margin-top: 2%;
 }
 
 .zone4{
-    margin-left: 15%;
+
     font-size: 12px;
 }

@@ -1,3 +1,17 @@
+
+/* 숨겨진 상태를 위한 기본 스타일 */
+.hidden {
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 2s ease; /* 2초 동안 페이드 인 */
+}
+
+/* 페이드 인 될 때 보여줄 스타일 */
+.visible {
+    opacity: 1;
+}
+
+
 body{
     
     background-image: url('https://drive.google.com/thumbnail?id=17VIZLGhgtsskdQRde2WbH29KncbVyyNX&sz=w1000');
@@ -5,6 +19,7 @@ body{
     background-size: cover;
     background-position: center;
     overflow: hidden;
+
 
 }
 
@@ -71,7 +86,7 @@ a:hover{
 .contact-info {
     position: fixed;
     bottom: 0;
-    left: 0;
+    
     padding: 0.8%;
     font-size: 16px;
     color: white;
@@ -81,17 +96,24 @@ a:hover{
 .footer-image {
     width: 50px; /* 이미지 크기를 조절합니다 */
     height: auto; /* 비율을 유지하면서 크기 조정 */
-    margin-right: 0px; /* 텍스트와 이미지 사이에 간격을 줍니다 */
     vertical-align: middle; /* 이미지와 텍스트가 같은 라인에 오도록 합니다 */
 }
 
+.contact-info-title{
+    color: white !important;
+    font-size: 12px !important;
+}
+
 .contact-info a {
-    color: white;
+    color: gray;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 12px;
 }
 
 .contact-info a:visited{
-    color: white;
+    color: gray;
 }
 
 .contact-info a:hover {
@@ -143,4 +165,6 @@ a:hover{
         overflow: hidden;
     }
 }
+
+
 

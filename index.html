@@ -6,11 +6,12 @@
 	<title>Daisyeon</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-	<div class="frame">
+	<div class="frame hidden">
 		<nav class="navigator">
 			<h3 class="site-name">Daisyeon</h3>
 			<ul>
@@ -34,12 +35,24 @@
 		<footer class="contact-info">
 			<p>
 				<img class="footer-image" src="assets/images/DAISYEON_LOGO_orange.png">
-				<strong>Daisyeon</strong>
-				<a href="https://www.instagram.com/daisy__yeon/" target="_blank">instagram</a>/
+				<a class = "contact-info-title"><strong>Daisyeon</strong></a>
+				
+				<a href="https://www.instagram.com/daisy__yeon/" target="_blank">Instagram</a>
 				<a href="mailto:daisyeonfilm@gmail.com">Email</a>
 			</p>
 		</footer>
 	</div>
+
+	<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.addEventListener('click', function() {
+                const frame = document.querySelector('.frame');
+                frame.classList.remove('hidden');
+                frame.classList.add('visible');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
