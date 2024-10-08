@@ -183,6 +183,7 @@ a:hover{
 .click_image{
     width: 328px !important;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .zone3{

@@ -65,8 +65,8 @@
 					</div>
 					<div class="zone2-2-2">
 						<div class="zone2-2-2-1">
-							<a href="https://gofund.me/59e09276">
-								<img class="click_image" src="../assets/images/share.png">
+							<a onclick="copyLinkToClipboard('https://gofund.me/59e09276');">
+								<img class="click_image" src="../assets/images/share.png" alt="클립보드 복사">
 							</a>
 						</div>
 						<div class="zone2-2-2-2">
@@ -101,12 +101,29 @@
 		</footer>
 	</div>
 
+	<!--자동재생-->
+
 	<script>
 		document.body.addEventListener('click', function() {
 			const audio = document.getElementById('myAudio');
 			audio.muted = false;  // 음소거 해제
 			audio.play();  // 다시 재생
 		});
+	</script>
+
+	<!--링크 클립보드 복사-->
+
+	<script>
+		// 링크를 클립보드에 복사하는 함수
+		function copyLinkToClipboard(link) {
+			navigator.clipboard.writeText(link)
+				.then(() => {
+					alert("The link has been copied to the clipboard.: \n" + link);
+				})
+				.catch(err => {
+					console.error("fail to copy link sry try again later or use upper immage", err);
+				});
+		}
 	</script>
 </body>
 
