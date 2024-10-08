@@ -133,4 +133,70 @@ a:hover{
 
 .dashboard{
     margin-left: 10%;
+    margin-right: 15%;
+}
+
+.zone1{
+    margin-top: 10%;   
+}
+
+.zone1-1{
+    font-size: 14.4px;
+    font-weight: 700 !important;
+}
+
+.zone1-2{
+    margin-top: 4%;
+    font-size: 12px;
+}
+
+.zone1-3{
+    margin-top: 3%;   
+}
+
+.zone2{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.zone2-1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.zone2-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.zone2-2-1{
+    width: 50%;
+}
+
+
+.zone2-2-2{
+    display: flex;
+    flex-direction: row ;
+}
+
+.click_image{
+    width: 328px !important;
+    object-fit: cover;
+}
+
+.zone3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.zone3-1{
+    font-size: 12px;
+}
+
+.zone3-2{
+    font-size: 12px;
+}
+
+.zone4{
+    margin-bottom: 5%;
 }
