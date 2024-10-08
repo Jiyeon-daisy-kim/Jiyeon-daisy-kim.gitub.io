@@ -130,3 +130,7 @@ a:hover{
 }
 
 /* 여기까지는 기본 세팅 */
+
+.dashboard{
+    margin-left: 10%;
+}
