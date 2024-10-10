@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Daisyeon</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/quickContact_style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+	<div class="frame hidden">
+		<nav class="navigator">
+			<h3 class="site-name">Daisyeon</h3>
+			<ul>
+				<li><a href="index.html" class ="nav-menu">HOME</a></li>
+				<li><a href="intoduction.html" class="nav-menu">Introduction</a></li>
+				<li class="dropdown">
+					<a href="film.html" class="nav-menu">FILM▼</a>
+					<div class="dropdown-content">
+						<a href="mejfk-youinc/">Me:JFK, You:ICN</a>
+						<a href="haenamCabbage.html">Haenam Cabbage</a>
+						<a href="suddenlyHome.html">Suddenly, Home</a>
+						<a href="caseOfR.html">Case of 'R'</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="dashboard">
+            <div class="zone1">
+                <p>CONTACT</p>
+            </div>
+            <div class="zone2">
+                <div class="zone2-1">
+                    <div class="zone2-1-1">
+                        <p>ONLINE INQUIRY</p>
+                    </div>
+                    <div class="zone2-1-2">
+                        <form action="https://formspree.io/f/mzzbpowe" method="POST" id="contact-form">
+                            <label>
+                                <input required type="text" id="name" name="name" placeholder="Your name">
+                            </label>
+                            <label>
+                                <input required type="email" id="email" name="email" placeholder="Your email">
+                            </label>
+                            <label>
+                                <input required name="message" id="message" placeholder="Your message"></input>
+                            </label>
+                            <button type="submit" form="contact-form">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="zone2-2">
+                    <div class="zone2-2-1">
+                        <p>CONTACT DETAILS</p>
+                    </div>
+
+                    
+                    <div class="zone2-2-2">
+                        <p>Jiyeon is always happy to respond to worldwide collaborations.
+                            Feel free to contact if you want to talk about film, media, travel, etc.</p>
+                    </div>
+
+                    <div class="zone2-2-3">
+                        <p>daisyeonfilm@gmail.com</p>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+            
+            
+		</div>
+
+		<footer class="contact-info">
+			<p>
+				<img class="footer-image" src="assets/images/DAISYEON_LOGO_orange.png">
+				<a class = "contact-info-title"><strong>Daisyeon</strong></a>
+				
+				<a href="https://www.instagram.com/daisy__yeon/" target="_blank">Instagram</a>
+				<a href="quickContact.html">Email</a>
+			</p>
+		</footer>
+	</div>
+
+	<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.addEventListener('click', function() {
+                const frame = document.querySelector('.frame');
+                frame.classList.remove('hidden');
+                frame.classList.add('visible');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
