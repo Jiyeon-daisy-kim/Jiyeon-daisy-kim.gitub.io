@@ -48,6 +48,11 @@ ul{
     */
 }
 
+.site-name a{
+    color: black;
+    text-decoration: none;
+}
+
 .nav-menu{
     font-size: 18px;
     color: black;

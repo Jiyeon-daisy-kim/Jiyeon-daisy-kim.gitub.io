@@ -40,9 +40,11 @@ ul{
     margin:0;
     font-size: 24px;
     color: black;
-    /* 원하는 폰트 찾아와!
-    font family: '원하는 폰트명', sans serif;
-    */
+}
+
+.site-name a{
+    color: black;
+    text-decoration: none;
 }
 
 .nav-menu{
