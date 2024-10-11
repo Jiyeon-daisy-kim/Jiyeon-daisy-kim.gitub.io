@@ -220,8 +220,6 @@ button {
     transition: all 0.2s;
     border: none;
     cursor: pointer;
-
-    
 }
 
 button:hover {
