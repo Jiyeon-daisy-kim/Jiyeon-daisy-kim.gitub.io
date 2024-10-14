@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../firstJavascriptProject"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "daisyeon"
+    }
+}
