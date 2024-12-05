@@ -19,7 +19,8 @@ body{
     align-items: center;
     z-index: 1000;
     position: fixed;
-    width: 80%
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 li{
