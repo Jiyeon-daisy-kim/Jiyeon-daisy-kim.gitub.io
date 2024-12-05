@@ -16,8 +16,7 @@ body{
     align-items: center;
     z-index: 1000;
     position: fixed;
-    width: 80%;
-    font-family: 'Montserrat', sans-serif;
+    width: 80%
 }
 
 li{
@@ -118,34 +117,6 @@ a:hover{
     background-color: #f1f1f1; /* 마우스를 올리면 배경색 변경 */
 }
 
-
-
-/* 여기까지는 기본 세팅 */
-
-.dashboard{
-    margin-left: 10%;
-    margin-right: 15%;
-}
-
-.zone1{
-    margin-top: 10%;   
-}
-
-.zone1-1{
-    font-size: 70px;
-    font-weight: 700 !important;
-    margin-bottom: ;
-}
-
-.zone1-2{
-    margin-top: 4%;
-    font-size: 12px;
-}
-
-.zone1-3{
-    margin-top: 3%;   
-}
-
 .fixed-text {
     position: fixed;
     top: 20%;
@@ -160,6 +131,30 @@ a:hover{
     line-height: 20px;
 }
 
+/* 여기까지는 기본 세팅 */
+
+.dashboard{
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.zone1{
+    margin-top: 10%;   
+}
+
+.zone1-1{
+    font-size: 14.4px;
+    font-weight: 700 !important;
+}
+
+.zone1-2{
+    margin-top: 4%;
+    font-size: 12px;
+}
+
+.zone1-3{
+    margin-top: 3%;   
+}
 
 .zone2{
     margin-top: 3%;
@@ -168,7 +163,7 @@ a:hover{
 }
 
 .zone2-1{
-    font-size: 12px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -178,25 +173,14 @@ a:hover{
 }
 
 .zone2-2-1{
-    width: 100%;
+    width: 50%;
 }
 
-.zone2-2-1 img {
-    max-width: 100%; /* 이미지가 부모 요소를 벗어나지 않도록 설정 */
-    height: auto; /* 비율 유지 */
-    display: block;
-}
 
 .zone2-2-2{
     display: flex;
     flex-direction: row ;
 }
-
-.zone2-2-2-1,
-.zone2-2-2-2 {
-    flex: 1 1 auto;
-}
-
 
 .click_image{
     width: 328px !important;
@@ -209,31 +193,27 @@ a:hover{
     margin-bottom: 3%;
 }
 .zone3-1{
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .zone3-2{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .zone4{
     margin-bottom: 5%;
 }
 
-.zone4 img {
-    width: 100%;
-    height: auto;
-}
 
 button {
     display: flex; /* 플렉스 박스를 사용 */
     justify-content: center; /* 가로 중앙 정렬 */
     align-items: center; /* 세로 중앙 정렬 */
-    width: 90px;
-    height: 30px;
+    width: 320px;
+    height: 40px;
     padding: 0;
-    margin: 10px 0 10px 0; /* 잘못된 margin 수정 (px 삭제) */
-    font-size: 12px;
+    margin: 10px 10px 10px 0; /* 잘못된 margin 수정 (px 삭제) */
+    font-size: 15px;
     font-weight: 600;
     font-family: "Montserrat";
     color: gray;

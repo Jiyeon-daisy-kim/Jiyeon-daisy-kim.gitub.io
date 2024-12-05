@@ -15,8 +15,7 @@ body{
     align-items: center;
     z-index: 1000;
     position: fixed;
-    width: 80%;
-    font-family: 'Montserrat', sans-serif;
+    width: 80%
 }
 
 li{
@@ -167,12 +166,6 @@ a:hover{
     text-align: center; /* 텍스트 중앙 정렬 */
     padding: 20px;
     margin: 0 auto; /* 자동 여백 설정으로 가운데 배치 */
-    text-decoration: none;
-    color: inherit;
-}
-
-.contact:visited{
-    color: inherit;
 }
 
 .contact p {
