@@ -16,7 +16,8 @@ body{
     align-items: center;
     z-index: 1000;
     position: fixed;
-    width: 80%
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 li{
@@ -216,6 +217,10 @@ a:hover{
     font-family: 'DM Sans';
 }
 
+.zone2-2-2{
+    font-family: 'Pretendard', sans-serif;
+}
+
 .zone3{
 
     margin-left: 10%;
@@ -228,6 +233,5 @@ a:hover{
 .addition-image{
     width: 50%;
 }
-
 
 
