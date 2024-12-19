@@ -73,6 +73,12 @@ ul{
     color: white;
 }
 
+.triangle{
+    font-size: 10px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
 a{
     text-decoration: none;
 }

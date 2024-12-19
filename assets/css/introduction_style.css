@@ -49,6 +49,11 @@ ul{
     color: black;
 }
 
+.triangle{
+    font-size: 10px;
+    margin-left: 3px;
+}
+
 a{
     text-decoration: none;
 }
