@@ -192,6 +192,14 @@ a:hover{
     font-size: 42px;
 }
 
+.text-zone-2 a:visited{
+    color: black;
+}
+
+.text-zone-2 a:hover{
+    color: darkgray;
+}
+
 .text-zone-3{
     font-size: 12px;
     line-height: 20px;
