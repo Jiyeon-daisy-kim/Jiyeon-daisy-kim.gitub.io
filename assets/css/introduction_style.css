@@ -176,8 +176,12 @@ a:hover{
     color: inherit;
 }
 
-.contact:visited{
-    color: inherit;
+.contact a:hover{
+    background-color: darkgray;
+}
+
+.contact a:visited{
+    color: black;
 }
 
 .contact p {
